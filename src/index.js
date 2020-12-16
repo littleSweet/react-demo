@@ -1,7 +1,10 @@
 // 项目的入口文件
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./App.js";
+import App from "./App";
+import LifeCycle from "./LifeCycle";
+import ControInput from "./ControInput";
+import NoControInput from "./NoControInput";
 
 // JSX
 const aa = 'React...'
@@ -74,7 +77,7 @@ function Welcome(props){
 }
 
 // ReactDOM.render(<Welcome name='hi' />,document.querySelector('#root'))
-ReactDOM.render(<App name="你好啊"  />,document.querySelector('#root'))
+ReactDOM.render(<NoControInput />,document.querySelector('#root'))
 
 
 
